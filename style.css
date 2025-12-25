@@ -1,0 +1,32 @@
+ @media (min-width: 576px) {
+ 	.content {
+ 		width: 90%;
+ 	}
+ }
+
+ @media (min-width: 992px) {
+ 	.content {
+ 		width: 60%;
+ 	}
+ }
+
+ @media (min-width: 1200px) {
+ 	.content {
+ 		width: 40%;
+ 	}
+ }
+
+ main {
+ 	margin: 0 auto;
+ 	font-family: "Open Sans", sans-serif;
+ }
+
+ h1 {
+ 	text-align: center;
+ }
+
+ .content {
+ 	margin: 0 auto;
+ 	display: flex;
+ 	flex-direction: column;
+ }
